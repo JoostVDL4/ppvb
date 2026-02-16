@@ -1,20 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ppvb</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script
-        src="https://kit.fontawesome.com/b273e788b2.js"
-        crossorigin="anonymous"
-    ></script>
-    <script src="js/main.js" defer></script>
-    <title>Document</title>
+    <title>MA Curriculum - Software Developer</title>
+   <link rel="stylesheet" href="css/style.css">
+   <script defer src="js/main.js"></script>
 </head>
 <body>
 
-    
-    
+<header>
+    <h1>Software Developer</h1>
+    <p>Mediacollege Amsterdam Curriculum</p>
+</header>
+
+<div class="container">
+    <div class="filter-section">
+        <button class="filter-btn active" onclick="filterYear(1, this)">Leerjaar 1</button>
+        <button class="filter-btn" onclick="filterYear(2, this)">Leerjaar 2</button>
+        <button class="filter-btn" onclick="filterYear(3, this)">Leerjaar 3</button>
+    </div>
+
+    <div id="curriculumGrid" class="curriculum-grid">
+        <!-- Dynamisch met JavaScript -->
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 Mediacollege Amsterdam - Opleiding Software Developer
+</footer>
+
+
 </body>
 </html>
