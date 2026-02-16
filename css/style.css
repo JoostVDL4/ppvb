@@ -1,4 +1,4 @@
-/* --- Variabelen & Reset --- */
+
 :root {
     --neon-pink: #ff00cc;
     --black: #000000;
@@ -19,7 +19,7 @@ body {
     color: var(--black);
 }
 
-/* --- Header --- */
+
 header {
     background-color: var(--black);
     color: var(--white);
@@ -45,7 +45,7 @@ header {
     font-size: 0.8rem;
 }
 
-/* --- Filter Navigatie --- */
+
 .filter-nav {
     display: flex;
     gap: 10px;
@@ -74,7 +74,7 @@ header {
     color: var(--white);
 }
 
-/* --- Grid Layout --- */
+
 .container {
     padding: 0 2rem 2rem 2rem;
 }
@@ -85,7 +85,7 @@ header {
     gap: 20px;
 }
 
-/* --- Kaart Design --- */
+
 .card {
     background-color: var(--black);
     border: 2px solid var(--neon-pink);
@@ -154,8 +154,9 @@ header {
     color: var(--black);
 }
 
+
 .hidden {
-    display: none;
+    display: none !important; 
 }
 
 /* --- Footer --- */
