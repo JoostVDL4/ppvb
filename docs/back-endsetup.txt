@@ -1,0 +1,10 @@
+alleen eerste keer
+cd back-end
+docker compose up -d --build
+docker compose exec php bash
+composer setup
+
+
+
+daarna
+docker compose up -d
