@@ -4,7 +4,7 @@ const cmsData = [
     { id: 2, year: 1, moduleTitle: "Web Development", moduleNumber: "Module 2", description: "HTML, CSS & Grid.", icon: "🌐", inverted: false },
     { id: 3, year: 1, moduleTitle: "Databases", moduleNumber: "Module 3", description: "Introductie tot SQL.", icon: "🗄️", inverted: false },
     { id: 4, year: 2, moduleTitle: "Databases Advanced", moduleNumber: "Module 2", description: "Complexe queries.", icon: "🗄️", inverted: false },
-    { id: 5, year: 2, moduleTitle: "USORS", moduleNumber: "Module 4", description: "User Stories & Scrum.", icon: "📅", inverted: true },
+    { id: 5, year: 2, moduleTitle: "USERS", moduleNumber: "Module 4", description: "User Stories & Scrum.", icon: "📅", inverted: true },
     { id: 6, year: 3, moduleTitle: "Programming Dev", moduleNumber: "Module 1", description: "Gevorderde technieken.", icon: "⚙️", inverted: false },
     { id: 7, year: 3, moduleTitle: "Software Basics", moduleNumber: "Module 2", description: "Architectuur patterns.", icon: "📝", inverted: false },
     { id: 8, year: 4, moduleTitle: "Examens", moduleNumber: "Module 1", description: "Proeve van Bekwaamheid.", icon: "🎓", inverted: true }
