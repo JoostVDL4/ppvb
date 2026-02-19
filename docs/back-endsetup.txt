@@ -11,3 +11,4 @@ docker compose up -d
 
 
 user maken filament: php artisan make:filament-user
+om modules te kunnen inladen moet je de modules aanmaken via filament
